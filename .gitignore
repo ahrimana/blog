@@ -1,0 +1,13 @@
+*.pyc
+*.pyo
+*.db
+.DS_Store
+.coverage
+local_settings.py
+/static
+.ropeproject/
+*.css
+*.css.map
+mezzanine_leposava_theme/.sass-cache/
+mezzanine_leposava_theme/node_modules/
+mezzanine_leposava_theme/static/css/
