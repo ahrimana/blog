@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'ahrimana'
 SITENAME = u'ahrimana'
-SITESUBTITLE = u'Thoughts of a hacker and a musician'
+SITESUBTITLE = u'EduTech, InfoSec and a little bit of Marketing'
 SITEURL = ''
 
 PATH = 'content'
@@ -29,25 +29,25 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (
-    ('github', 'https://github.com/mekanix'),
-    ('twitter', 'https://twitter.com/meka_floss'),
-    ('linkedin', 'https://www.linkedin.com/in/goran-mekić-b1030120/'),
-    ('envelope', 'mailto:meka@tilda.center'),
+    ('github', 'https://github.com/ahrimana'),
+    ('twitter', 'https://twitter.com/ahrimana'),
+    ('linkedin', 'https://www.linkedin.com/in/majamekic'),
+    ('envelope', 'mailto:ahrimana@tilda.center'),
     ('rss', FEED_ALL_ATOM),
 )
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 THEME = 'theme'
 DELETE_OUTPUT_DIRECTORY = True
 INDEX_SAVE_AS = 'blog/index.html'
 DELETE_OUTPUT_DIRECTORY = True
-DISQUS_SITENAME = "mekars"
-GITHUB_URL = "https://github.com/mekanix"
-TWITTER_URL = "https://twitter.com/meka_floss"
+DISQUS_SITENAME = "ahrimana"
+GITHUB_URL = "https://github.com/ahrimana"
+TWITTER_USER = "ahrimana"
 ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 MENUITEMS = (
@@ -61,4 +61,8 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
 }
 PROFILE_IMAGE = "avatar.png"
-BIO = "I am Goran Mekić, and I'm FreeBSD user and enthusiast, musician and hacker"
+BIO = """When people ask me what do I do, I say #EduTech, #Infosec & #Marketing.
+When people ask me what I am I say photographer, feminist & co-founder of 
+@TildaCenter Maja Mekić"""
+
+GOOGLE_ANALYTICS = "UA-46980706-1"

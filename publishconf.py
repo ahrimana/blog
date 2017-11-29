@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://meka.rs'
+SITEURL = 'https://ahrimana.com'
 RELATIVE_URLS = False
 
 # Following items are often useful when publishing
